@@ -1,0 +1,37 @@
+
+div {
+    width: 100%;
+
+    margin: 10px 0;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 773px) {
+    div {
+        width: 48%;
+
+        margin: 29px 3%;
+
+    }
+
+    img {
+        max-height: 31vh;
+
+        width: auto;
+
+    }
+}
+
+@media (min-width: 996px) {
+    div {
+        width: 38%;
+
+        margin: 29px 2%;
+
+    }
+}
